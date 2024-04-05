@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <link rel="stylesheet" href="css/neha2.css">
+    <link rel="stylesheet" href="neha2.css">
 
 </head>
 <body>
@@ -47,7 +47,7 @@
                 scene.add(cube); 
 
             var textureLoader = new THREE.TextureLoader();
-            textureLoader.load('images/project1.png', function (texture) {
+            textureLoader.load('project1.png', function (texture) {
                 // Once the texture is loaded, apply it to the plane and adjust its dimensions
                 cube.material.map = texture;
                 cube.material.needsUpdate = true;
@@ -95,7 +95,7 @@
                 scene1.add(cube1); 
               
                 var textureLoader1 = new THREE.TextureLoader();
-                textureLoader1.load('images/project3.jpeg', function (texture) {
+                textureLoader1.load('project3.jpeg', function (texture) {
                 // Once the texture is loaded, apply it to the plane and adjust its dimensions
                 cube1.material.map = texture;
                 cube1.material.needsUpdate = true;
@@ -143,7 +143,7 @@
                 scene2.add(cube2); 
               
                 var textureLoader2 = new THREE.TextureLoader();
-                textureLoader2.load('images/project4.jpg', function (texture) {
+                textureLoader2.load('project4.jpg', function (texture) {
                 // Once the texture is loaded, apply it to the plane and adjust its dimensions
                 cube2.material.map = texture;
                 cube2.material.needsUpdate = true;
