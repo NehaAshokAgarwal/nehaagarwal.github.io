@@ -23,12 +23,13 @@
 
     .header {
         padding: 10px; /* Adjust padding for smaller screens */
-        width: 100%
-        position: relative;
+        width: 100%; /* Set width to 100% */
+        position: absolute;
+        text-align: center; /* Center align header content */
     }
 
     .header-title {
-        font-size: 20px;
+        font-size: 24px; /* Adjust font size for smaller screens */
     }
 
     .header-content {
@@ -45,18 +46,20 @@
     .content {
         margin-left: 0; /* Adjust margin for smaller screens */
         padding: 10px; /* Adjust padding for smaller screens */
+        text-align: justify; /* Justify text for better readability */
     }
 
     .heading1,
     .heading2,
     .heading3 {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 20px; /* Adjust font size for smaller screens */
         margin-bottom: 10px; /* Adjust margin for smaller screens */
     }
 
     .para1,
     .para2 {
         margin-bottom: 10px; /* Adjust margin for smaller screens */
+        margin-left: 0px;
     }
 
     .content1,
@@ -75,6 +78,7 @@
         margin: 5px; /* Add some space between images */
     }
 }
+
 
 
 .nav-list {
