@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/neha.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Volunteering.html">Volunteering</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Awards.html"> Skills and Awards</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <header class="header">
+            <script>
+                var i = 0;
+                var images=[]
+                var time = 2000;
+
+                images[0] = 'images/neha.img.jpg';
+                images[1] = 'images/neha2.jpg';
+                images[2] = 'images/neha3.jpg';
+
+                function changeImg(){
+                    document.slide.src = images[i];
+
+                    if(i < images.length -1){
+                        i++;
+                    } else{
+                        i = 0;
+                    }
+
+                    setTimeout("changeImg()", time);
+                }
+                window.onload = changeImg;
+                
+            </script>
+            <div class="header-content">
+                <div><img name="slide" width="300px" height="350px"></div>
+                <h1 class="header-title">Neha Agarwal</h1>
+            </div>
+        </header>
+        <section class="content1">
+            <h2 class="heading1">About Me</h2>
+            <p class="para1">
+                I am a senior at <a href="https://www.umb.edu"> University of Massachusetts Boston </a> pursuing Bachelors in Computer Science. My focus lies in the field of Data science and 
+                virtualization.As a student, I have worked as a Peer Mentor for an Introduction to Computing course and Critical Reading and Writing course.
+                I have also taken the role of a technician in the IT department at <a href="https://www.massgeneral.org/"> Mass General Hospital, Boston </a>. 
+                In the Fall 2024, I will be joining <a href="https://country.db.com/usa/"> Deutsche Bank </a> full-time for the Grad Analyst role, where I also did my internship during summer 2023.</p>
+    
+            <p>Apart from academics, I enjoy travelling around the world and learning about other cultures, music, and reading books on assortment of topics. My recent favourite
+                    books I have read so far are V for Vendetta and Ikigai.
+            </p><hr class="line1">
+        </section>
+        <section class="content2">
+            <h2 class="heading2">Education</h2>
+            <p class="para2">
+                B.Sc, Computer Science, <a href="https://www.umb.edu"> University of Massachusetts Boston </a>, May 2024.
+            </p>
+            <p>
+                High School Diploma, <a href="https://sophiaajmer.com/"> Sophia Senior Secondary School Ajmer </a>, April 2020.
+            </p>
+            <hr class="line3">
+        </section>
+        <section class = "content3">
+            <h2 class="heading3">Contact</h2>
+            <p>
+                Location : Boston, USA      
+            </p>
+            <div class="images">
+            <a href="mailto:nehavm1617@gmail.com"> <img class="email" src="images/gmail.png" alt="Email"> </a>
+            <a href="https://www.instagram.com/neha.agarwal16_/"> <img class="insta" src="images/instagram.png" alt="Instagram"> </a>
+            <a href="https://www.linkedin.com/in/neha-agarwal-a14b90204/"> <img class="linkedin" src="images/linkedin.jpeg" alt="LinkedIn"> </a>
+            <a href="https://github.com/NehaAshokAgarwal"> <img class="github" src="images/github.png" alt="GitHub"> </a>
+            </div> 
+            <hr class="line2">
+        </section>
+        <footer class="footer">
+            <p>&copy; All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

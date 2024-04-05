@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteering</title>
+    <link rel="stylesheet" href="css/neha3.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Volunteering.html">Volunteering</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Awards.html">Skills and Awards</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <header class="header">
+                <script>
+                    var i = 0;
+                    var images=[]
+                    var time = 2000;
+    
+                    images[0] = 'images/volun1.jpg';
+                    images[1] = 'images/volun2.jpg';
+
+                    function changeImg(){
+                        document.slide.src = images[i];
+    
+                        if(i < images.length -1){
+                            i++;
+                        } else{
+                            i = 0;
+                        }
+    
+                        setTimeout("changeImg()", time);
+                    }
+                    window.onload = changeImg;
+                    
+                </script>
+                <div class="header-content">
+                    <div><img name="slide" width="850px" height="550px"></div>
+                    <div class="overlay-text">
+                        <h2>VOLUNTEERING EXPERIENCE</h2>
+                        <p>Hope for Boston's Homelessness</p>
+                </div>
+        </header>
+        <section class="content1">
+            <p>
+                I volunteered with Elaine at <em>Hope for Boston's homelessness</em> from 2021 to 2024. 
+                I helped to pack 50-60 backpacks and to distribute them to the people out there in
+                need on alternate weekends. The backpacks contain healthy food items, clothing, sanitary products, 
+                and bathing accessories. We recieved these items as donations from our friends, neighbours, and family                        
+                However, the organization is now called <em>Boston Backpack</em>. If anyone is insterested to join the 
+                community,
+                please reach out to Elain through her 
+                <a href="https://m.facebook.com/profile.php?id=100000103157901&name=STSDirectNavUserDecorator">
+                facebook account </a> .
+                </p>  <hr class="line">
+        </section>
+
+        <footer class="footer">
+            <p>&copy; All rights reserved.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

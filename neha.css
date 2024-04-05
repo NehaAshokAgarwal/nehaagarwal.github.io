@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 250px;
+    height: 100%;
+    background-color: #b8d41b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    padding: 10px;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none
+}
+
+.insta {
+    width: 4%;
+    height: auto;
+}
+
+.linkedin {
+    width: 3%;
+    height: auto;
+}
+
+.github {
+    width: 5%;
+    height: auto;
+}
+
+.email {
+    width: 3%;
+    height: auto;
+}
+
+.neha {
+    width: 30%;
+    height: 5%;
+    margin-right: 20px;
+}  
+
+.neha2 {
+    width: 30%;
+    height: 5%;
+    margin-right: 20px;
+} 
+
+.body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Change the background color */
+}
+
+/* Header styles */
+.header {
+    background-color: #0b0b0b;
+    color: #fdfbfb;
+    padding: 20px;
+}
+
+.header-title {
+    padding-left: 50px;
+    font-size: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-left: 250px; /* Same width as sidebar */
+}
+
+.heading1 {
+    margin-bottom: 20px;
+}
+
+.heading2 {
+    margin-bottom: 20px;
+}
+
+.heading3 {
+    margin-bottom: 20px;
+}
+
+.para1 {
+    margin-bottom: 10px;
+}
+
+.para2 {
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content2 {
+    padding: 20px;
+}
+
+.content1 {
+    padding: 20px;
+}
+
+.content3 {
+    padding: 20px;
+}
+
+.line1 {
+    margin-top: 20px;
+    border: 2px solid #c72323;
+    
+}
+
+.line2 {
+    margin-top: 20px;
+    border: 2px solid #c72323;
+    
+}
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.heading1 {
+    font-size: 48px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+
+.line3 {
+    margin-top: 20px;
+    border: 2px solid #c72323;
+    
+}
+
+.images {
+    padding-top: 10px;
+    font-size: 0;
+}
+
+.images {
+    vertical-align: middle;
+}
+
+/* Footer styles */
+.footer {
+    color: #131313;
+    text-align: left;
+    padding: 20px;
+}
