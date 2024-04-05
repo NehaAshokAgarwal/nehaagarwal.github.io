@@ -14,11 +14,11 @@
     .header {
         padding: 10px; /* Adjust padding for smaller screens */
         width: 100%; /* Set width to 100% */
-        position: relative;
         text-align: center; /* Center align header content */
     }
 
     .header-content {
+        display:flex;
         flex-direction: column; /* Stack image and title vertically on smaller screens */
         align-items: center;
     }
@@ -44,6 +44,8 @@
     .images {
         padding-top: 10px; /* Adjust padding for smaller screens */
         font-size: 0;
+        width: 20%;
+        height:auto;
         text-align: center; /* Center align images */
     }
 
