@@ -3,16 +3,6 @@
     padding: 0;
 }
 
-.navbar{
-    width: 250px;
-    height: 100%;
-    background-color: #b8d41b;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 20px;
-}
-
 @media only screen and (max-width: 768px) {
     /* CSS rules for smaller screens */
 
@@ -24,23 +14,13 @@
     .header {
         padding: 10px; /* Adjust padding for smaller screens */
         width: 100%; /* Set width to 100% */
-        position: absolute;
+        position: relative;
         text-align: center; /* Center align header content */
-    }
-
-    .header-title {
-        font-size: 24px; /* Adjust font size for smaller screens */
     }
 
     .header-content {
         flex-direction: column; /* Stack image and title vertically on smaller screens */
         align-items: center;
-    }
-
-    .header-content img {
-        max-width: 100%; /* Ensure image doesn't overflow its container */
-        height: auto;
-        margin-bottom: 10px; /* Add some space below the image */
     }
 
     .content {
@@ -49,17 +29,10 @@
         text-align: justify; /* Justify text for better readability */
     }
 
-    .heading1,
-    .heading2,
-    .heading3 {
-        font-size: 20px; /* Adjust font size for smaller screens */
-        margin-bottom: 10px; /* Adjust margin for smaller screens */
-    }
-
     .para1,
     .para2 {
+        display: block; /* Display paragraphs as block elements */
         margin-bottom: 10px; /* Adjust margin for smaller screens */
-        margin-left: 0px;
     }
 
     .content1,
@@ -80,6 +53,15 @@
 }
 
 
+.navbar{
+    width: 250px;
+    height: 100%;
+    background-color: #b8d41b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
 
 .nav-list {
     list-style-type: none;
