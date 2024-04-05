@@ -9,11 +9,13 @@
     .navbar {
         width: 100%; /* Adjust width to fit smaller screens */
         position: relative; /* Remove fixed positioning */
+        max-width: 768px;
     }
 
     .header {
         padding: 5px; /* Adjust padding for smaller screens */
         width: 100%; /* Set width to 100% */
+        max-width: 768px;
     }
 
     .header-content {
@@ -30,6 +32,7 @@
 
     .para1,
     .para2 {
+        max-width: 768px;
         display: block; /* Display paragraphs as block elements */
         width:100%;
         margin-bottom: 10px; /* Adjust margin for smaller screens */
@@ -39,6 +42,7 @@
     .content2,
     .content3 {
         padding: 10px; /* Adjust padding for smaller screens */
+        max-width: 768px;
     }
 
     .images {
@@ -51,6 +55,13 @@
 
     .images img {
         margin: 5px; /* Add some space between images */
+    }
+    .footer {
+        width: 100%; /* Adjust width to fit smaller screens */
+        position: relative; /* Remove fixed positioning */
+        text-align: center; /* Center align footer content */
+        padding: 10px; /* Adjust padding for smaller screens */
+        max-width: 768px;
     }
 }
 
