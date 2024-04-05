@@ -19,6 +19,16 @@
         width: 100%; /* Adjust width to fit smaller screens */
         position: relative; /* Remove fixed positioning */
     }
+
+    .content {
+        margin-left: 0; /* Remove fixed margin */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .header-title {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
     /* Add similar adjustments for other elements */
 }
 
