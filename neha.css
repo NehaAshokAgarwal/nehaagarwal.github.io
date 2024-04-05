@@ -19,7 +19,7 @@
 
     .header-content {
         display:flex;
-        flex-direction: column; /* Stack image and title vertically on smaller screens */
+        flex-direction: row; /* Stack image and title vertically on smaller screens */
         align-items: center;
     }
 
