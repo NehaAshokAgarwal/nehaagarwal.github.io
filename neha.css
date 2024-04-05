@@ -21,8 +21,12 @@
         position: relative; /* Remove fixed positioning */
     }
 
+    .header {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
     .header-title {
-        font-size: 48px; /* Adjust font size for smaller screens */
+        font-size: 36px; /* Adjust font size for smaller screens */
     }
 
     .header-content {
