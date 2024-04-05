@@ -13,6 +13,15 @@
     padding-top: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* CSS rules for smaller screens */
+    .navbar {
+        width: 100%; /* Adjust width to fit smaller screens */
+        position: relative; /* Remove fixed positioning */
+    }
+    /* Add similar adjustments for other elements */
+}
+
 .nav-list {
     list-style-type: none;
     padding: 0;
